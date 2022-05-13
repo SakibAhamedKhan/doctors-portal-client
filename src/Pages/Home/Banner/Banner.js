@@ -1,10 +1,16 @@
 import React from 'react';
 import chair from '../../../assets/images/chair.png';
 import PrimaryButton from '../../Shared/PrimaryButton/PrimaryButton';
+import appointmentBack from '../../../assets/images/bg.png';
 
 const Banner = () => {
 	return (
-		<div className="hero lg:mt-[-50px] min-h-screen w-fit lg:px-12 mx-auto">
+		<div style={{
+			background:`url(${appointmentBack})`,
+			backgroundPosition:'center center',
+			backgroundSize: 'cover'
+			
+		}} className="hero lg:mt-[-50px] min-h-screen w-fit lg:px-12 mx-auto">
 			<div className="hero-content flex-col lg:flex-row-reverse">
 				<img src={chair} className="max-w-md rounded-lg shadow-2xl object-cover w-full object-cover md:h-full md:w-96 mb-10 mx-2" />
 				<div>

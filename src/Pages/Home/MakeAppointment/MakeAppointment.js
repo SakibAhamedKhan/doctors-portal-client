@@ -5,7 +5,7 @@ import PrimaryButton from '../../Shared/PrimaryButton/PrimaryButton';
 
 const MakeAppointment = () => {
 	return (
-		<selection style={{
+		<section style={{
 			background: `url(${appointment})`
 		}} className='flex justify-center items-center mt-20'>
 			<div className='flex-1 hidden lg:block'>
@@ -17,7 +17,7 @@ const MakeAppointment = () => {
 				<p className='text-white mb-2'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsumis that it has a more-or-less normal distribution of letters,as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page</p>
 				<PrimaryButton>Get Appointment Now</PrimaryButton>
 			</div>
-		</selection>
+		</section>
 	);
 };
 
