@@ -8,7 +8,7 @@ const Footer = () => {
 			backgroundSize:'cover',
 			backgroundPosition:'center'
 		}} className="p-10 ">
-			<div className='footer'>
+			<div className='footer justify-around'>
 				<div>
 					<span className="footer-title">Services</span> 
 					<a className="link link-hover">Branding</a>
