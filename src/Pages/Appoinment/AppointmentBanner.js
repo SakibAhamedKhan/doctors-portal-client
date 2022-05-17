@@ -22,7 +22,7 @@ const AppointmentBanner = ({date, setDate}) => {
 					className='w-fit'
 					mode='single'
 					selected={date}
-					onSelect={setDate}
+					onDayClick={setDate}
 					/>
 				
 				</div>
